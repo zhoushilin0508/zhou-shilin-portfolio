@@ -1,0 +1,61 @@
+name: Publish portfolio
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Copy and verify public portfolio files
+        run: |
+          python3 - <<'PY'
+          from concurrent.futures import ThreadPoolExecutor
+          from pathlib import Path
+          import hashlib, urllib.request
+          base = "https://zhou-shilin-visual-portfolio.zszskzsk.chatgpt.site/"
+          files = ["app.js","assets-map.js","assets/a055.jpg","assets/a064.webp","assets/a065.webp","assets/a071.webp","assets/a073.webp","assets/a077.webp","assets/a081.webp","assets/a086.webp","assets/a106.webp","assets/a114.webp","assets/commerce-01-full.mp4","assets/commerce-01-loop.mp4","assets/commerce-01-poster.jpg","assets/commerce-02-full.mp4","assets/commerce-02-loop.mp4","assets/commerce-02-poster.jpg","assets/commerce-03-full.mp4","assets/commerce-03-loop.mp4","assets/commerce-03-poster.jpg","assets/commerce-04-full.mp4","assets/commerce-04-loop.mp4","assets/commerce-04-poster.jpg","assets/commerce-05-full.mp4","assets/commerce-05-loop.mp4","assets/commerce-05-poster.jpg","assets/dream-group.webp","assets/hex-merch-bag.webp","assets/hex-merch-magnet.webp","assets/hex-merch-scent.webp","assets/hex-merch-umbrella.webp","assets/hex-poster-01.webp","assets/hex-poster-02.webp","assets/hex-poster-03.webp","assets/hex-poster-04.webp","assets/hex-poster-05.webp","assets/hex-view-blue.webp","assets/hex-view-gold.webp","assets/hex-view-green.webp","assets/hex-view-orange.webp","assets/hex-view-purple.webp","assets/hexing-cover.webp","assets/hexing-venue.jpg","assets/katoo-colors.webp","assets/katoo-logo.webp","assets/katoo-pattern.webp","assets/original-01-full.mp4","assets/original-01-loop.mp4","assets/original-01-poster.jpg","assets/original-02-full.mp4","assets/original-02-loop.mp4","assets/original-02-poster.jpg","assets/original-03-full.mp4","assets/original-03-loop.mp4","assets/original-03-poster.jpg","assets/original-04-frame-00.webp","assets/original-04-frame-04.webp","assets/original-04-frame-10.webp","assets/original-04-frame-18.webp","assets/original-04-full.mp4","assets/original-04-loop.mp4","assets/original-04-poster.jpg","assets/personal-01.webp","assets/personal-02.webp","assets/personal-03.webp","assets/personal-04.webp","assets/personal-05.webp","assets/personal-06.webp","assets/personal-07.webp","assets/personal-08.webp","assets/personal-09.webp","assets/zhou-shilin-resume.pdf","flow.js","fonts/Manrope-OFL.txt","fonts/Noto-OFL.txt","fonts/manrope.woff2","fonts/noto-sc.woff2","index.html","studio.css"]
+          target = Path("public")
+          def copy_file(name):
+              req = urllib.request.Request(base + name, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=90) as response:
+                  data = response.read()
+              path = target / name
+              path.parent.mkdir(parents=True, exist_ok=True)
+              path.write_bytes(data)
+              return name, hashlib.sha256(data).digest()
+          with ThreadPoolExecutor(max_workers=4) as pool:
+              checks = dict(pool.map(copy_file, files))
+          digest = hashlib.sha256()
+          for name in sorted(files):
+              digest.update(name.encode() + b"\0" + checks[name])
+          expected = "a13d8ef9f28bf03710845fc2702fdfc9b6c2dd9650abd71522c53bd6bf41b17e"
+          assert digest.hexdigest() == expected, "Website content verification failed"
+          (target / ".nojekyll").touch()
+          print("Verified", len(files), "website files")
+          PY
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
