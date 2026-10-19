@@ -1,0 +1,380 @@
+{
+  "source": "https://zhoushilin0508.github.io/zhou-shilin-portfolio/",
+  "assets": [
+    {
+      "path": "assets/a055.jpg",
+      "size": 258324,
+      "sha256": "9928c932c70833916b2668f44c82546e3a6351edd0634637d9419bdbc10ba196"
+    },
+    {
+      "path": "assets/a064.webp",
+      "size": 269948,
+      "sha256": "654bd0a068ce1cada2aa8ad5b5a544ab82e23b38796b7125b7ec7b54413a23d2"
+    },
+    {
+      "path": "assets/a065.webp",
+      "size": 252788,
+      "sha256": "24d9c45560725b6b0e1051bf109b5cc5b88c38fbc89c143014d40346cb91c9d5"
+    },
+    {
+      "path": "assets/a071.webp",
+      "size": 81260,
+      "sha256": "a64770fe6dc0255db7db91beafb5dabbff311e76e43f728171ab82996c18aac9"
+    },
+    {
+      "path": "assets/a073.webp",
+      "size": 145332,
+      "sha256": "2411d1c25fafdcf299f3f6a9cd72558c1a3391af5ce0ff5b2cfa99941029970f"
+    },
+    {
+      "path": "assets/a077.webp",
+      "size": 82130,
+      "sha256": "b73b2992811faf52775e1e879fdf81996f639b8c9375ff34b9d3449f36351bc7"
+    },
+    {
+      "path": "assets/a081.webp",
+      "size": 154036,
+      "sha256": "05dadb6c9d8a15503c5ea7304c315fe71196faf242b36119142e4d0e31b4bae2"
+    },
+    {
+      "path": "assets/a086.webp",
+      "size": 115588,
+      "sha256": "d251eed0ec4e302aac580cf57fd366eb6d1210ef52461aabfd22ea0485d83d69"
+    },
+    {
+      "path": "assets/a106.webp",
+      "size": 109156,
+      "sha256": "013783e224aa498f999911700aca4a74986256cf1db2123fc9689d6fd8342a85"
+    },
+    {
+      "path": "assets/a114.webp",
+      "size": 281156,
+      "sha256": "93a8d64fa5052a62dd1f70f0e1e7100a603c3dc8f5b87ba35542cf6635aff1c2"
+    },
+    {
+      "path": "assets/commerce-01-full.mp4",
+      "size": 2081750,
+      "sha256": "d329a05645fbab8dfe60c270b3b82fa61192c0684905d5076a00231ce805dd89"
+    },
+    {
+      "path": "assets/commerce-01-loop.mp4",
+      "size": 464324,
+      "sha256": "54e744e05509be63b2c9aea9f1a4735432e59ed6a5171c3ed77f0e1fbeb18a57"
+    },
+    {
+      "path": "assets/commerce-01-poster.jpg",
+      "size": 28232,
+      "sha256": "a5f66009c908ea1bdb7bc2bd8369367835c1fb0baccd9ac0a212ba344ad769ff"
+    },
+    {
+      "path": "assets/commerce-02-full.mp4",
+      "size": 3067539,
+      "sha256": "ceadb74bba752da2320e411623ce46eb81fe9376aadf25e856beec0aefa35b2b"
+    },
+    {
+      "path": "assets/commerce-02-loop.mp4",
+      "size": 490154,
+      "sha256": "464280e57193368a3ace2eb439f76a093c3f03f49029b5119205553a5b0f0aa0"
+    },
+    {
+      "path": "assets/commerce-02-poster.jpg",
+      "size": 23119,
+      "sha256": "ff931ee9acfadc3d549a5260725bb04e75ed77f55840b63d2b682224e6eb7c77"
+    },
+    {
+      "path": "assets/commerce-03-full.mp4",
+      "size": 2789973,
+      "sha256": "6af7654dd0e485219146cdb4b441290e5470ee8809924b061b3d44e2f33ff417"
+    },
+    {
+      "path": "assets/commerce-03-loop.mp4",
+      "size": 433224,
+      "sha256": "189d0a4198ee39085808f4776e925447f2f413a4e6c2479ee0c5d9fce2c2d05b"
+    },
+    {
+      "path": "assets/commerce-03-poster.jpg",
+      "size": 23363,
+      "sha256": "152b1d77ac7f3e22a71645927f0e4cfbdf8d08653b72efe2f73df1282e3d80a2"
+    },
+    {
+      "path": "assets/commerce-04-full.mp4",
+      "size": 2813531,
+      "sha256": "8ae40a8ae57d4974b82fac8f723d90d0511638cc68a5377c4ed0561d6aa4a08b"
+    },
+    {
+      "path": "assets/commerce-04-loop.mp4",
+      "size": 786548,
+      "sha256": "02cd19e79ba446a63df292c6857ee20b4935999658b463e60a1e91fc3e7041ae"
+    },
+    {
+      "path": "assets/commerce-04-poster.jpg",
+      "size": 31760,
+      "sha256": "21f1938508b4b0f74a7b2abd60128e33c1c2ba3d4a0d42e51aab93222ccd2019"
+    },
+    {
+      "path": "assets/commerce-05-full.mp4",
+      "size": 3085840,
+      "sha256": "909bf2cc8519fef66dcb225056dd4fbd4aef5bc3e503db917e5077ac6d7d6b84"
+    },
+    {
+      "path": "assets/commerce-05-loop.mp4",
+      "size": 499151,
+      "sha256": "f344d5e3aa57318b9d60968f01a91eadd4590144124d8d8182961864f9835063"
+    },
+    {
+      "path": "assets/commerce-05-poster.jpg",
+      "size": 17925,
+      "sha256": "cd7695c08cc779bb0c2c4d4eaefaa63deafe416b935bcc48a983fad1ee2eb000"
+    },
+    {
+      "path": "assets/dream-group.webp",
+      "size": 115326,
+      "sha256": "dbc67834522f2595af084500026f8428cc34194a233023223044adb978fc4696"
+    },
+    {
+      "path": "assets/hex-merch-bag.webp",
+      "size": 230056,
+      "sha256": "afe1a7d1836e91d2d84f42e8f7ff39b36f9a29cb6f6c00c9986e40542c3aa6d2"
+    },
+    {
+      "path": "assets/hex-merch-magnet.webp",
+      "size": 154656,
+      "sha256": "3a1fe3b7fc852b746b44476e047b778c00b6ccd9f9fecb0fbf1e4b0f74fa76a7"
+    },
+    {
+      "path": "assets/hex-merch-scent.webp",
+      "size": 202616,
+      "sha256": "c6c973698608266068540445f58add99e1fc637b51b7f779da83ee4b670caebc"
+    },
+    {
+      "path": "assets/hex-merch-umbrella.webp",
+      "size": 179572,
+      "sha256": "dbdd76d011e4466439efa0f5d499f60e7b030e0176158d12b6654adb6f32ccc3"
+    },
+    {
+      "path": "assets/hex-poster-01.webp",
+      "size": 187828,
+      "sha256": "b5bded6722f265a388900d3a5d8803250a7c2ef240bde8d70fc25317b5dcd03f"
+    },
+    {
+      "path": "assets/hex-poster-02.webp",
+      "size": 194662,
+      "sha256": "c37f790dd484b2e7a4a151d31b3bdb658f98e733aa479616ca5eac4293fc8fd2"
+    },
+    {
+      "path": "assets/hex-poster-03.webp",
+      "size": 168112,
+      "sha256": "b16c73ebe04ca23c1bd25d54f4e2d60be1bce2a4b4fedb79dba9f37bb9950b9d"
+    },
+    {
+      "path": "assets/hex-poster-04.webp",
+      "size": 164624,
+      "sha256": "448e7988d99ae56786849241e5c69c1d5fc7c131e1b4514a414389cc3a177c72"
+    },
+    {
+      "path": "assets/hex-poster-05.webp",
+      "size": 230138,
+      "sha256": "3ebd0d02d9273ed142c793c827be975bd929f713b879515a515837ff53659f80"
+    },
+    {
+      "path": "assets/hex-view-blue.webp",
+      "size": 145244,
+      "sha256": "e070d0fe7120e9924a6e532b2d0dd4bd86f3747584f7050b0085e7d1b1f4569b"
+    },
+    {
+      "path": "assets/hex-view-gold.webp",
+      "size": 256898,
+      "sha256": "94da7beb56e794c8e44d93a7c18e9f018a35b03c0b037de24dac4256570a5bcc"
+    },
+    {
+      "path": "assets/hex-view-green.webp",
+      "size": 115894,
+      "sha256": "bcf874e04c5b12ab34fb945c0f251b0038775b4f8103d33335b52e97434650a8"
+    },
+    {
+      "path": "assets/hex-view-orange.webp",
+      "size": 188722,
+      "sha256": "36b96120e1577f4260f853f6a3f507a614cac849cbfc3c0acdcd0d4ad192193e"
+    },
+    {
+      "path": "assets/hex-view-purple.webp",
+      "size": 94770,
+      "sha256": "55b82b952f1fddc4439a64c3fed64a10d1437705122d0b33fdda09ec1583df1b"
+    },
+    {
+      "path": "assets/hexing-cover.webp",
+      "size": 201820,
+      "sha256": "464b229467b8d7808fc7b323db1dda913b195e66f435d8b55136020f17b140f0"
+    },
+    {
+      "path": "assets/hexing-venue.jpg",
+      "size": 418382,
+      "sha256": "9c5b039cc10d957dfc51a1b74b4b17d7c356bb15cd582edd9bd371fed2260fde"
+    },
+    {
+      "path": "assets/katoo-colors.webp",
+      "size": 75946,
+      "sha256": "7c3d57b9b29226501001a20d35a7339446fd94a57f65ceb19fad9cf3a3170653"
+    },
+    {
+      "path": "assets/katoo-logo.webp",
+      "size": 30732,
+      "sha256": "9f7541ef21a409830be03afa0c612dc8422897beee246118b3a894958635fae2"
+    },
+    {
+      "path": "assets/katoo-pattern.webp",
+      "size": 108678,
+      "sha256": "64928467f5fd095c0be2024f1abce418f8cd84cfec64c68badbd70497a186787"
+    },
+    {
+      "path": "assets/original-01-full.mp4",
+      "size": 2723969,
+      "sha256": "3459ce8905bc8c558097d080e297243de560a579599e95f2bfbc55d5b873195d"
+    },
+    {
+      "path": "assets/original-01-loop.mp4",
+      "size": 575664,
+      "sha256": "5823f7e21663f97b1cf9ae574c10d97fc34ba7b389ed8481d86c7bfe96744eee"
+    },
+    {
+      "path": "assets/original-01-poster.jpg",
+      "size": 67265,
+      "sha256": "04bb3334ded4965d7cdaec4603c0e3cc579c53b44644a0b2efadabd297c8ea10"
+    },
+    {
+      "path": "assets/original-02-full.mp4",
+      "size": 1857745,
+      "sha256": "4a4a9f46589a78ead069ab5370559435bf7e762ee0dac6a5a630aa9cbbb621c1"
+    },
+    {
+      "path": "assets/original-02-loop.mp4",
+      "size": 295845,
+      "sha256": "7a78ca7d02b9ea62ec6ff5fa27bfdf3ecde769ee8ed5540fff445728c40acb1e"
+    },
+    {
+      "path": "assets/original-02-poster.jpg",
+      "size": 54699,
+      "sha256": "0a1ed05b39f435699e1c1623492fed1b40c67be9c79de8c078b4981bb7dd27e3"
+    },
+    {
+      "path": "assets/original-03-full.mp4",
+      "size": 1537535,
+      "sha256": "7b68a6128b09b4e1b9153d4b5b4ea6403d2f655d54cbbd644ea5f399425e0ea7"
+    },
+    {
+      "path": "assets/original-03-loop.mp4",
+      "size": 559483,
+      "sha256": "6f0b686b2862b95442acca16fe24f90adb5a5630cffe61bf12e29fbcd7a11f58"
+    },
+    {
+      "path": "assets/original-03-poster.jpg",
+      "size": 65070,
+      "sha256": "23b784561f173dd96ca045d6b60f6495104ece5048f98b9706b40a8b11d99f3d"
+    },
+    {
+      "path": "assets/original-04-frame-00.webp",
+      "size": 64024,
+      "sha256": "97b20a27579863c58bb5e26f0b841ff33e452d0cfd01ec7c30382a6869b9ea6b"
+    },
+    {
+      "path": "assets/original-04-frame-04.webp",
+      "size": 56734,
+      "sha256": "7d6f1595244d4b9435151d3b0fb6d5b280a8c6f3dd6c921d981c71a854ef0675"
+    },
+    {
+      "path": "assets/original-04-frame-10.webp",
+      "size": 29154,
+      "sha256": "ebe87503650dc7056eed96b387b2e210680c801e9d7b1573a770f0f5b76a48c6"
+    },
+    {
+      "path": "assets/original-04-frame-18.webp",
+      "size": 35734,
+      "sha256": "e35c1e418818be234847fc4afd6e530d300c6e741a774a43fb0c71a2f4a8c852"
+    },
+    {
+      "path": "assets/original-04-full.mp4",
+      "size": 4631144,
+      "sha256": "870b1d4dd8f6476841f467e7b84cd62993c31153f76524fe58cb30fd9da3fe3a"
+    },
+    {
+      "path": "assets/original-04-loop.mp4",
+      "size": 727003,
+      "sha256": "b167f86d2f1e8755aae7569bed690cb07f6a2599e34ed51953c431512a79d202"
+    },
+    {
+      "path": "assets/original-04-poster.jpg",
+      "size": 76374,
+      "sha256": "96d728a2c5f848bf6d6108c69cc03bec28c88f93404d6dde4e068f38b6a61fb3"
+    },
+    {
+      "path": "assets/personal-01.webp",
+      "size": 11528,
+      "sha256": "f0b8bbb563570957f30596c4e6823f26a969a0665958de1ae6ef3a4dde2494a3"
+    },
+    {
+      "path": "assets/personal-02.webp",
+      "size": 20140,
+      "sha256": "68259d49b32070c70c5c0d8ee589c2314b6af77fc8ab4610119416afe0305e5e"
+    },
+    {
+      "path": "assets/personal-03.webp",
+      "size": 22998,
+      "sha256": "644be7c6cf1003b46b33c78f2a1934b6e9712d02b05720158a33aded75547b9c"
+    },
+    {
+      "path": "assets/personal-04.webp",
+      "size": 23266,
+      "sha256": "a0578ff5bc5164aee27799139625e187a66544c2848f66dcc011bea55366b21a"
+    },
+    {
+      "path": "assets/personal-05.webp",
+      "size": 16968,
+      "sha256": "221cb47e063027400ab97df1c333a777b67f58389c99c850e165bc7065453d9e"
+    },
+    {
+      "path": "assets/personal-06.webp",
+      "size": 33302,
+      "sha256": "2e1db01ec094e3d364dd3394595a406eba367b8f3da989b2764e74369db740fa"
+    },
+    {
+      "path": "assets/personal-07.webp",
+      "size": 54508,
+      "sha256": "5491146859cda8896f36ffe719c1ec09aab39f12847ad1f63dc2346ba809559f"
+    },
+    {
+      "path": "assets/personal-08.webp",
+      "size": 39410,
+      "sha256": "04eb7d74630c6e1e56e71c1f09d8b823df3938cf4600412a596ad4edc5b4647c"
+    },
+    {
+      "path": "assets/personal-09.webp",
+      "size": 40694,
+      "sha256": "1671863f9e337e3048ef3eb1496b47a2d9ef3da7a4e5db62ce324c821cde517a"
+    },
+    {
+      "path": "assets/zhou-shilin-resume.pdf",
+      "size": 231077,
+      "sha256": "539e15d5a15e5f09bbbeae26881fac3c50eca43f16b542c7eaf37ad583d06710"
+    },
+    {
+      "path": "fonts/Manrope-OFL.txt",
+      "size": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "path": "fonts/Noto-OFL.txt",
+      "size": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "fonts/manrope.woff2",
+      "size": 22840,
+      "sha256": "79401177466e68401681dc42facdc6f1a836451a5ec87522e55c22a93ab4c2ce"
+    },
+    {
+      "path": "fonts/noto-sc.woff2",
+      "size": 193984,
+      "sha256": "58901e0152725986a7024abbd367e33608491c5ab2918f9180457fafe54b6e67"
+    }
+  ]
+}
