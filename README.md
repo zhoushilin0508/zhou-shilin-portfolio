@@ -11,6 +11,10 @@
 
 “关于我”突出针对实际需求独立编写与迭代 Skill 的能力，补充真人电影脚本创作，并压缩五龙项目介绍。
 
+## 简历维护
+
+`site/assets/zhou-shilin-resume.pdf` 保存网站正在使用的简历。更新该文件时同步更新 `site/assets-manifest.json` 中的大小与 SHA-256，以及首页两个简历链接的版本参数。构建优先使用仓库中的简历并验证其哈希，其他既有素材继续从正式网站取回。
+
 ## 本地构建与预览
 
 运行 `python3 scripts/build_portfolio.py` 生成 `public/`。已有完整媒体副本时，可通过 `--asset-cache /path/to/assets-parent` 复用经校验的文件。

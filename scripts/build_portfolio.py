@@ -33,6 +33,14 @@ def main() -> None:
         if relative.is_absolute() or ".." in relative.parts:
             raise ValueError(f"Invalid asset path: {name}")
         target = output / relative
+        authored = ROOT / "site" / relative
+        if authored.is_file():
+            data = authored.read_bytes()
+            if not valid(data, item):
+                raise ValueError(f"Authored asset verification failed: {name}")
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+            return
         if target.is_file() and valid(target.read_bytes(), item):
             return
         data = None
