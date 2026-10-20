@@ -353,8 +353,8 @@
     },
     {
       "path": "assets/zhou-shilin-resume.pdf",
-      "size": 170471,
-      "sha256": "5eb6d42096feb3835e3b4b616c24f2615a82d231b4d4e6ba3b25b6d9a513886f"
+      "size": 348057,
+      "sha256": "378eaf1e86bb0272094403bcdbeadbe8da72ad2ebaf94a6fea8fa19adead15c4"
     },
     {
       "path": "fonts/Manrope-OFL.txt",
@@ -375,6 +375,66 @@
       "path": "fonts/noto-sc.woff2",
       "size": 193984,
       "sha256": "58901e0152725986a7024abbd367e33608491c5ab2918f9180457fafe54b6e67"
+    },
+    {
+      "path": "assets/skill-commerce-contact.jpg",
+      "size": 118694,
+      "sha256": "5428c38c28968845c0aea4182583eb7528b60bb70d595f98f0c8752f7c049bff"
+    },
+    {
+      "path": "assets/skill-commerce-00.jpg",
+      "size": 72189,
+      "sha256": "b78cc0271fa24e7f02525bfe75e41e58d8d80234472551d26767027366318580"
+    },
+    {
+      "path": "assets/skill-commerce-10.jpg",
+      "size": 81777,
+      "sha256": "f3f6ace5a2bae32399110794cce314ef3cd620d41d7e12d95de62dbeb392d093"
+    },
+    {
+      "path": "assets/skill-commerce-04.jpg",
+      "size": 98713,
+      "sha256": "3155b2ede78af1e1f16b2a1ae417e3cb5a041f4a213f43f61e3a96a55d0e1e52"
+    },
+    {
+      "path": "assets/skill-commerce-review.json",
+      "size": 970,
+      "sha256": "481793bf4cb5a0bc889a0842c11b764e3d7e32bf48b9fe1ecc1d6d13850db426"
+    },
+    {
+      "path": "assets/iteration-01-full.mp4",
+      "size": 1362914,
+      "sha256": "ccf18ff6714058bd881db9c7a2eb56ac647661ed214220cb634f8a4f64193c9a"
+    },
+    {
+      "path": "assets/iteration-portrait.webp",
+      "size": 62638,
+      "sha256": "1fd68cb8657e3b677f1f5217cf17a9e4490e0e952dcb7415893689be9fa2d4c3"
+    },
+    {
+      "path": "assets/iteration-before.jpg",
+      "size": 69198,
+      "sha256": "55d56129177e7f1e02bde2e8c690c4d43e4c1697cb0e06246dad7fcac973570a"
+    },
+    {
+      "path": "assets/iteration-record.json",
+      "size": 3425,
+      "sha256": "62f32e7d9bc57932ea6a6509c7c8fdb576b2afdf86000d2607c95c9e3cb3b864"
+    },
+    {
+      "path": "assets/iteration-background.webp",
+      "size": 19750,
+      "sha256": "19def38d5d4c7bfeeb3600bfaa4aca52dd04fcedb3377a55443cd00e1b788cca"
+    },
+    {
+      "path": "assets/iteration-01-poster.jpg",
+      "size": 88164,
+      "sha256": "dd199c64c2efc008cd42d979df924ffb3fe6997d2362d77fe9f41cf459ac10b9"
+    },
+    {
+      "path": "assets/iteration-after.jpg",
+      "size": 88164,
+      "sha256": "dd199c64c2efc008cd42d979df924ffb3fe6997d2362d77fe9f41cf459ac10b9"
     }
   ]
 }

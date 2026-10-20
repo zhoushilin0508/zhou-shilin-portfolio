@@ -1,0 +1,46 @@
+{
+  "case": "黑棕双色扣带长靴",
+  "review_date": "2026-10-20",
+  "scope": "以既有成片进行流程复核，非原始生产日志",
+  "source": "commerce-05-full.mp4",
+  "source_sha256": "909bf2cc8519fef66dcb225056dd4fbd4aef5bc3e503db917e5077ac6d7d6b84",
+  "duration_seconds": 15.0,
+  "width": 720,
+  "height": 960,
+  "fps": 25.0,
+  "sampling_interval_seconds": 2,
+  "samples": [
+    {
+      "target_seconds": 0.0,
+      "decoded_seconds": 0.0
+    },
+    {
+      "target_seconds": 2.0,
+      "decoded_seconds": 2.0
+    },
+    {
+      "target_seconds": 4.0,
+      "decoded_seconds": 4.0
+    },
+    {
+      "target_seconds": 6.0,
+      "decoded_seconds": 6.0
+    },
+    {
+      "target_seconds": 8.0,
+      "decoded_seconds": 8.0
+    },
+    {
+      "target_seconds": 10.0,
+      "decoded_seconds": 10.0
+    },
+    {
+      "target_seconds": 12.0,
+      "decoded_seconds": 12.0
+    },
+    {
+      "target_seconds": 14.0,
+      "decoded_seconds": 14.0
+    }
+  ]
+}

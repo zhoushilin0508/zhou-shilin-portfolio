@@ -8,6 +8,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+import time
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -52,8 +53,15 @@ def main() -> None:
                     data = candidate
         if data is None:
             request = urllib.request.Request(ASSET_BASE + name, headers={"User-Agent": "PortfolioBuild/1.0"})
-            with urllib.request.urlopen(request, timeout=90) as response:
-                data = response.read()
+            for attempt in range(3):
+                try:
+                    with urllib.request.urlopen(request, timeout=90) as response:
+                        data = response.read()
+                    break
+                except (OSError, ConnectionError):
+                    if attempt == 2:
+                        raise
+                    time.sleep(attempt + 1)
         if not valid(data, item):
             raise ValueError(f"Asset verification failed: {name}")
         target.parent.mkdir(parents=True, exist_ok=True)
